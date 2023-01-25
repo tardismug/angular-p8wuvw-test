@@ -1,7 +1,12 @@
-
-
-/*
-Copyright Google LLC. All Rights Reserved.
-Use of this source code is governed by an MIT-style license that
-can be found in the LICENSE file at https://angular.io/license
-*/
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+nav a {
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  background: #827191;
+  border-radius: 5px;
+  color: #f3eff5;
+}

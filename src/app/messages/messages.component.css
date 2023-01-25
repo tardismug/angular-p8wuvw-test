@@ -1,8 +1,8 @@
 /* MessagesComponent's private CSS styles */
 #AllMessages {
-  padding: 15px;
-  background: rgba(0, 204, 255, 0.15);
-  border: solid 1px rgba(0, 204, 255, 0.6);
+  padding: 10px;
+  background: #084c61;
+  border: solid 1px rgba(80, 250, 177, 0.8);
   margin: 20px 0;
 }
 
@@ -13,16 +13,16 @@
 }
 
 h2 {
-  color: rgba(0, 2.4, 255);
+  color: rgba(80, 250, 177);
   font-family: Arial, Helvetica, sans-serif;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 0.6rem;
   margin-top: 0;
 }
 
 .clear {
-  color: #ffffff;
-  background-color: rgba(0, 2.4, 255);
+  color: #084c61;
+  background-color: #50ffb1;
   margin: 0px;
   padding: 0rem;
   border-radius: 50%;
@@ -33,9 +33,11 @@ h2 {
   height: 20px;
 }
 .clear:hover {
-  background-color: #42545c;
+  background-color: #084c61;
+  color: #50ffb1;
 }
 
 .ListeMessages {
-  color: rgba(0, 2.4, 255);
+  color: #50ffb1;
+  font-size: 0.6rem;
 }

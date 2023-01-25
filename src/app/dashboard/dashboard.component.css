@@ -1,0 +1,44 @@
+.heroes-menu ol {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  list-style: none;
+}
+.heroes-menu li:before {
+  content: 'X';
+  opacity: 0.5;
+  width: 30px;
+  display: inline-block;
+  text-align: center;
+}
+.heroes-menu li:nth-child(1) {
+  font-size: 2rem;
+}
+.heroes-menu li:nth-child(1):before {
+  content: '1';
+}
+.heroes-menu li:nth-child(2) {
+  font-size: 1.6rem;
+}
+.heroes-menu li:nth-child(2):before {
+  content: '2';
+}
+.heroes-menu li:nth-child(3) {
+  font-size: 1.2rem;
+}
+.heroes-menu li:nth-child(3):before {
+  content: '3';
+}
+.heroes-menu li:nth-child(4) {
+  font-size: 0.8rem;
+}
+.heroes-menu li:nth-child(4):before {
+  content: '4';
+}
+.heroes-menu li a {
+  color: #084c61;
+  text-decoration: none;
+}
+.heroes-menu li a:hover {
+  color: #14bdeb;
+}
